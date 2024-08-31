@@ -90,10 +90,13 @@ function get_last_num(){
 function opPress(event){
     
     op = event.target.innerText
+
+
     
     console.log(op)
 
     calc_buffer.push(display.innerText, op)
+
 
     do_calc()
 
